@@ -2,6 +2,10 @@
 /* header */
 header{
   height: 4rem;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -202,7 +206,6 @@ nav{
 }
 
 .course-container{
-  border: 5px solid red;
   height: 42rem;
   width: 100%;
   display: flex;
@@ -310,17 +313,16 @@ footer ul li a{
     display: block;
   }
 
+  main{
+    border: 1px solid transparent;
+  }
+
   header{
-    height: 3rem;
+    height: 3rem
   }
 
   .home-mobile{
     width: 100%;
-    display: block;
-
-  }
-
-  .brand-mobile{
     height: 3rem;
     width: 100%;
     display: flex;
@@ -328,15 +330,16 @@ footer ul li a{
     align-items: center;
   }
 
-  .brand-mobile *{
+  .brand-mobile img{
     height: 2rem;
     width: 2rem;
   }
 
   /*learn*/
   .learn-container{
+    border: 1px solid transparent;
     height: 45rem;
-
+    margin-top: 2rem;
   }
 
   .big-container{
