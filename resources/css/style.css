@@ -84,7 +84,7 @@ nav{
 }
 
 .girl-studying{
-  background-image: url("../images/banner.jpg") ;
+  background-image: url("../images/banner.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 34rem;
@@ -318,7 +318,7 @@ footer ul li a{
   }
 
   header{
-    height: 3rem
+    height: 3rem;
   }
 
   .home-mobile{
